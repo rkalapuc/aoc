@@ -48,22 +48,16 @@ impl Schema {
     }
 
     fn has_adjacent_symbol(&self, idy: i32, idx: i32) -> bool {
-        for adj_pos in Schema::ADJACENT_POSITIONS {
-            if self.is_symbol(idy + adj_pos[0], idx + adj_pos[1]) {
-                return true;
-            }
-        }
-        return false;
+        return Schema::ADJACENT_POSITIONS.iter().any(|it| self.is_symbol(idy + it[0], idx + it[1]));
     }
 
     fn find_adjacent_gears(&self, idy: i32, idx: i32) -> HashSet<u32> {
-        let mut gears_positions: HashSet<u32> = HashSet::new();
-        for adj_pos in Schema::ADJACENT_POSITIONS {
-            if self.is_gear(idy + adj_pos[0], idx + adj_pos[1]) {
-                gears_positions.insert(((idy + adj_pos[0]) * (self.cols - 1) + idx + adj_pos[1]) as u32);
+        return HashSet::from_iter(Schema::ADJACENT_POSITIONS.iter().filter_map(|it| {
+            if self.is_gear(idy + it[0], idx + it[1]) {
+                return Some(((idy + it[0]) * (self.cols - 1) + idx + it[1]) as u32);
             }
-        }
-        return gears_positions;
+            return None;
+        }).collect::<Vec<u32>>());
     }
 
     fn is_valid_position(&self, idy: i32, idx: i32) -> bool {
@@ -168,7 +162,7 @@ pub fn solve_part1(input: &str) -> String {
     let mut next_digit: Vec<u8> = Vec::new();
     let mut has_adj_symbol: bool = false;
 
-    let result: u32 = SchemaIterator::for_schema(&schema).into_iter().map(
+    let result: u32 = SchemaIterator::for_schema(&schema).into_iter().filter_map(
         |it| {
             if it.is_digit {
                 next_digit.push(it.item);
@@ -179,28 +173,25 @@ pub fn solve_part1(input: &str) -> String {
                 let result = if has_adj_symbol { String::from_utf8(next_digit.clone()).unwrap().parse().unwrap() } else { 0 };
                 next_digit.clear();
                 has_adj_symbol = false;
-                return result;
+                return Some(result);
             }
 
-            return 0;
+            return None;
         }
     ).sum();
 
     return result.to_string();
 }
 
-#[derive(Hash, Eq, PartialEq, Debug)]
-struct IntTuple(i32, i32);
-
 pub fn solve_part2(input: &str) -> String {
     let schema: Schema = Schema::create(input);
 
     let mut next_digit: Vec<u8> = Vec::new();
     let mut adj_gears: HashSet<u32> = HashSet::new();
-    let mut gears: HashMap<i32, Vec<i32>> = HashMap::new();
 
-    SchemaIterator::for_schema(&schema).into_iter().for_each(
-        |it| {
+    let gears: HashMap<i32, Vec<i32>> = SchemaIterator::for_schema(&schema).into_iter().fold(
+        HashMap::new(),
+        |mut acc, it| {
             if it.is_digit {
                 next_digit.push(it.item);
                 adj_gears.extend(schema.find_adjacent_gears(it.idy, it.idx));
@@ -209,24 +200,24 @@ pub fn solve_part2(input: &str) -> String {
             if (it.last_in_row || !it.is_digit) && !next_digit.is_empty() {
                 let digit = String::from_utf8(next_digit.clone()).unwrap().parse().unwrap();
                 for gear in adj_gears.clone() {
-                    if !gears.contains_key(&(gear as i32)) {
-                        gears.insert(gear as i32, Vec::new());
+                    if !acc.contains_key(&(gear as i32)) {
+                        acc.insert(gear as i32, Vec::new());
                     }
-                    gears.get_mut(&(gear as i32)).unwrap().push(digit);
+                    acc.get_mut(&(gear as i32)).unwrap().push(digit);
                 }
 
                 next_digit.clear();
                 adj_gears.clear();
             }
-        }
+
+            return acc;
+        },
     );
 
     let result: i32 = gears.values().filter_map(
-        |it| {
-            if it.len() == 2 {
-                return Some(it.get(0).unwrap() * it.get(1).unwrap());
-            }
-            return None;
+        |it| match it.len() {
+            2 => Some(it.get(0).unwrap() * it.get(1).unwrap()),
+            _ => None
         }
     ).sum();
 

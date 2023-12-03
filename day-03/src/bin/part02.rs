@@ -1,6 +1,6 @@
 use std::fs;
 use clap::Parser;
-use {{crate_name}}::{Cli, solve_part2};
+use day_03::{Cli, solve_part2};
 
 fn main() {
     let args: Cli = Cli::parse();

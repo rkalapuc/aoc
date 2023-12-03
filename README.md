@@ -3,7 +3,7 @@
 ## Quick setup
 ``` shell
 rustup default stable
-cargo install cargo-nextest cargo-generate
+cargo install cargo-generate
 brew install just
 ```
 
@@ -13,7 +13,7 @@ Create package for a new day:
 just create <day>
 ```
 
-Execute binary for given day and task
+Execute binary for a given day and task:
 ```shell
 just run <day> <part>
 ```
@@ -22,3 +22,4 @@ where `part` is either `part01` or `part02`
 ## Packages
 * [Day 1](day-01)
 * [Day 2](day-02)
+* [Day 3](day-03)

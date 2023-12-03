@@ -1,8 +1,8 @@
 # cross platform shebang
 shebang := if os() == 'windows' {
-  'powershell.exe'
+    'powershell.exe'
 } else {
-  '/usr/bin/env pwsh'
+    '/usr/bin/env pwsh'
 }
 
 # set shell for non-Windows OS
@@ -15,18 +15,18 @@ set windows-shell := ["powershell.exe", "-NoLogo", "-Command"]
 # use `pwsh.exe` instead of `powershell.exe`
 
 default:
-  just --list
+    just --list
 
 shebang:
-	#!{{shebang}}
-	$PSV = $PSVersionTable.PSVersion | % {"$_" -split "\." }
-	$psver = $PSV[0] + "." + $PSV[1]
-	if ($PSV[2].Length -lt 4) {
-		$psver += "." + $PSV[2] + " Core"
-	} else {
-		$psver += " Desktop"
-	}
-	echo "PowerShell $psver"
+    #!{{shebang}}
+    $psv = $PSVersionTable.PSVersion | % {"$_" -split "\." }
+    $$psVersion = $psv[0] + "." + $psv[1]
+    if ($psv[2].Length -lt 4) {
+        $psVersion += "." + $psv[2] + " Core"
+    } else {
+        $psVersion += " Desktop"
+    }
+    echo "PowerShell $psVersion"
 
 create day:
     cargo generate --path ./daily-template --name {{day}}

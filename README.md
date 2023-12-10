@@ -19,13 +19,31 @@ just run <day> <part>
 ```
 where `part` is either `part01` or `part02`
 
-## Packages
-* [Day 1](day-01)
-* [Day 2](day-02)
-* [Day 3](day-03)
-* [Day 4](day-04) 
-* [Day 5](day-05) 
-* [Day 6](day-06)
-* [Day 7](day-07)
-* [Day 8](day-08)
-* [Day 9](day-09)  
+## Calendar
+<pre>
+<span aria-hidden="true">                                                 </span>
+<span aria-hidden="true">                                                 </span>
+<span aria-hidden="true">                                                 </span>
+<span aria-hidden="true">                                                 </span>
+<span aria-hidden="true">                                                 </span>
+<span aria-hidden="true">                                                 </span>
+<span aria-hidden="true"><span>'</span>                       <span>'</span>                        </span>
+<span aria-hidden="true">      <i>*</i>                                            <span>11</span>    | <i>Coming soon ...</i></span>
+<span title="Day 10, two stars" >    <span>'.</span>      <b>*</b>     <span>..'</span><span>'</span> <span>''...</span>                       <span>10</span> <b>*</b><b>*</b></span> | <a href="https://adventofcode.com/2023/day/10" target="_blank">puzzle</a> | <a href="day-10/src/lib.rs">solution</a></span>
+<span aria-hidden="true">          <span>.</span><span>'''</span><span>~</span> <span>~</span> <span>~</span> <span>~</span>   <span>###</span> <span>''.</span>                  </span>
+<span title="Day 9, two stars" >        <span>.'</span> <span>~</span>  <span>,</span><b>*</b> <span>~</span> <span>~</span> <span>~</span> <span>~</span> <span>#####</span> <span>'.</span>                  <span> 9</span> <b>*</b><b>*</b></span> | <a href="https://adventofcode.com/2023/day/9" target="_blank">puzzle</a> | <a href="day-09/src/lib.rs">solution</a></span>
+<span title="Day 8, two stars" >        <span>:</span> <span>~</span> <span>'</span><span>(~)</span><span>,</span> <span>~</span> <b>*</b> <span>~</span> <span>~</span> <span>~</span> <span>###</span> <span>:</span>                  <span> 8</span> <b>*</b><b>*</b></span> | <a href="https://adventofcode.com/2023/day/8" target="_blank">puzzle</a> | <a href="day-08/src/lib.rs">solution</a></span>
+<span aria-hidden="true">        <span>'.</span> <span>~</span> <span>"</span> <span>'</span> <span>~</span> <span>~</span> <span>~</span>   <span>#####</span> <span>.'</span>                </span>
+<span title="Day 7, two stars" >          <span>'..</span> <span>~</span> <span>~</span> <b>*</b> <span>~</span> <span>#####</span> <span>..'</span><span>.'''''''''...</span>       <span> 7</span> <b>*</b><b>*</b></span> | <a href="https://adventofcode.com/2023/day/7" target="_blank">puzzle</a> | <a href="day-07/src/lib.rs">solution</a></span>
+<span title="Day 6, two stars" >             <span>'''.........'''</span><span>'</span> <span>~</span> <span>.'</span><b>*</b><span>.</span> <span>~</span>  <span>..</span>  <span>''.</span>    <span> 6</span> <b>*</b><b>*</b></span> | <a href="https://adventofcode.com/2023/day/6" target="_blank">puzzle</a> | <a href="day-06/src/lib.rs">solution</a></span>
+<span aria-hidden="true">                        <span>.'</span> <span>~</span>    <span>'...'</span> <span>~</span><span>'</span>  <span>'.</span><span>~</span>  <span>'.</span></span>
+<span title="Day 5, two stars" >                        <span>:</span>         <span>~</span>     <span>'.</span> <b>*</b><span>'.</span><span>~</span> <span>:</span>  <span> 5</span> <b>*</b><b>*</b></span> | <a href="https://adventofcode.com/2023/day/5" target="_blank">puzzle</a> | <a href="day-05/src/lib.rs">solution</a></span>
+<span aria-hidden="true">                 <span>...''''</span><span>'.</span>         <span>.''.</span><span>~</span>  <span>'..'</span> <span>.'</span></span>
+<span title="Day 4, two stars" >              <span>.''</span>         <span>'..</span>  <span>~</span><span>..'</span><b>*</b>   <span>'.</span> <span>~</span> <span>..'</span>    <span> 4</span> <b>*</b><b>*</b></span> | <a href="https://adventofcode.com/2023/day/4" target="_blank">puzzle</a> | <a href="day-04/src/lib.rs">solution</a></span>
+<span aria-hidden="true">            <span>.'</span>               <span>'''..</span><span>/</span><span>......'''</span>     </span>
+<span aria-hidden="true">            <span>:</span>             <span>/\</span>    <span>-</span><span>/</span>  <span>:</span>            </span>
+<span aria-hidden="true">            <span>'.</span>            <span>-</span>   <span>-</span> <span>/</span>  <span>.'</span>            </span>
+<span title="Day 3, two stars" >              <span>'..</span>    <span>-</span>     <span>-</span>   <b>*</b><span>..'</span>                <span> 3</span> <b>*</b><b>*</b></span> | <a href="https://adventofcode.com/2023/day/3" target="_blank">puzzle</a> | <a href="day-03/src/lib.rs">solution</a></span>
+<span title="Day 2, two stars" >    <span>----@</span>        <span>'''..</span><b>*</b><span>......'''</span>                   <span> 2</span> <b>*</b><b>*</b></span> | <a href="https://adventofcode.com/2023/day/2" target="_blank">puzzle</a> | <a href="day-02/src/lib.rs">solution</a></span>
+<span title="Day 1, two stars" >  <b>*</b> <span>!</span> <span>/^\</span>                                          <span> 1</span> <b>*</b><b>*</b></span> | <a href="https://adventofcode.com/2023/day/1" target="_blank">puzzle</a> | <a href="day-01/src/lib.rs">solution</a></span>
+</pre>

@@ -22,13 +22,13 @@ where `part` is either `part01` or `part02`
 ## Calendar
 <pre><span aria-hidden="true">                                                 </span>
 <span aria-hidden="true">                                                 </span>
-<span aria-hidden="true">            <span>..</span>                                   </span>
-<span aria-hidden="true">    <span>.'</span>                                           </span>
-<span aria-hidden="true">                                                 </span>
-<span aria-hidden="true"><span>.'</span>      <i>*</i> <span>.</span>         <span>'</span>                              <span>12</span>    | <i>Coming soon ...</i></span>
-<span aria-hidden="true"><span>'</span>   <span>.</span>     <span>'.</span>            <span>'</span>                        </span>
-<span title="Day 11, two stars" >    <span>.'</span><b>*</b>                                            <span>11</span> <b>*</b><b>*</b> | <a href="https://adventofcode.com/2023/day/11" target="_blank">puzzle</a> | <a href="day-11/src/lib.rs">solution</a></span>
-<span title="Day 10, two stars" >    <span>'..''''.</span><b>*</b><span>.''</span>  <span>..'</span><span>'</span> <span>''...</span>                       <span>10</span> <b>*</b><b>*</b> | <a href="https://adventofcode.com/2023/day/10" target="_blank">puzzle</a> | <a href="day-10/src/lib.rs">solution</a></span>
+<span aria-hidden="true">           <span>...</span>                                   </span>
+<span aria-hidden="true">    <span>.''....'</span> <span>'..</span>        <i>*</i>                          <span>13</span>    | <i>Coming soon ...</i></span>
+<span aria-hidden="true">    <span>'.ZZ</span>                                         </span>
+<span title="Day 12, two stars" ><span>.''''</span> <span>ZZ</span><b>*</b> <span>.'''.</span>     <span>'</span>                              <span>12</span> <b>*</b><b>*</b> | <a href="https://adventofcode.com/2023/day/12" target="_blank">puzzle</a> | <a href="day-12/src/lib.rs">solution</a></span>
+<span aria-hidden="true"><span>'....</span>     <span>'...'</span>     <span>....'</span>                        </span>
+<span title="Day 11, two stars" >    <span>.'</span><b>*</b>            <span>'.</span>                              <span>11</span> <b>*</b><b>*</b> | <a href="https://adventofcode.com/2023/day/11" target="_blank">puzzle</a> | <a href="day-11/src/lib.rs">solution</a></span>
+<span title="Day 10, two stars" >    <span>'..''''.</span><b>*</b><span>.''''..'</span><span>'</span> <span>''...</span>                       <span>10</span> <b>*</b><b>*</b> | <a href="https://adventofcode.com/2023/day/10" target="_blank">puzzle</a> | <a href="day-10/src/lib.rs">solution</a></span>
 <span aria-hidden="true">          <span>.</span><span>'''</span><span>~</span> <span>~</span> <span>~</span> <span>~</span>   <span>###</span> <span>''.</span>                  </span>
 <span title="Day 9, two stars" >        <span>.'</span> <span>~</span>  <span>,</span><b>*</b> <span>~</span> <span>~</span> <span>~</span> <span>~</span> <span>#####</span> <span>'.</span>                  <span> 9</span> <b>*</b><b>*</b> | <a href="https://adventofcode.com/2023/day/9" target="_blank">puzzle</a> | <a href="day-09/src/lib.rs">solution</a></span>
 <span title="Day 8, two stars" >        <span>:</span> <span>~</span> <span>'</span><span>(~)</span><span>,</span> <span>~</span> <b>*</b> <span>~</span> <span>~</span> <span>~</span> <span>###</span> <span>:</span>                  <span> 8</span> <b>*</b><b>*</b> | <a href="https://adventofcode.com/2023/day/8" target="_blank">puzzle</a> | <a href="day-08/src/lib.rs">solution</a></span>

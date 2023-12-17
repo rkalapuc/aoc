@@ -20,13 +20,14 @@ just run <day> <part>
 where `part` is either `part01` or `part02`
 
 ## Calendar
-<pre><span aria-hidden="true">                                                 </span>
-<span aria-hidden="true">                                                 </span>
-<span aria-hidden="true">           <span>...</span>                                   </span>
-<span aria-hidden="true">    <span>.''....'</span> <span>'..</span>        <i>*</i>                          <span>13</span>    | <i>Coming soon ...</i></span>
-<span aria-hidden="true">    <span>'.ZZ</span>                                         </span>
-<span title="Day 12, two stars" ><span>.''''</span> <span>ZZ</span><b>*</b> <span>.'''.</span>     <span>'</span>                              <span>12</span> <b>*</b><b>*</b> | <a href="https://adventofcode.com/2023/day/12" target="_blank">puzzle</a> | <a href="day-12/src/lib.rs">solution</a></span>
-<span aria-hidden="true"><span>'....</span>     <span>'...'</span>     <span>....'</span>                        </span>
+<pre><span title="Day 14, two stars" >                     <span>...'''''''''...</span>                    
+                  <span>.''</span> <span>~</span><span>/\</span><b>*</b> <span>~~~~</span>  <span>/\</span> <span>''.</span>            <span>14</span> <b>*</b><b>*</b> | <a href="https://adventofcode.com/2023/day/14" target="_blank">puzzle</a> | <a href="day-14/src/lib.rs">solution</a></span>
+<span title="Day 15, two stars" >                <span>.'</span> <span>/\/\</span> <span>~~~~~~~~</span> <b>*</b> <span>/</span><span>~</span><span>\</span> <span>'.</span>          <span>15</span> <b>*</b><b>*</b> | <a href="https://adventofcode.com/2023/day/15" target="_blank">puzzle</a> | <a href="day-15/src/lib.rs">solution</a></span>
+<span title="Day 16, two stars" >           <span>...</span>  <span>:</span><span>~~~~~~~~~</span> <span>/\</span> <span>~~~~</span><span>/</span> <b>*</b> <span>\</span> <span>:</span>          <span>16</span> <b>*</b><b>*</b> | <a href="https://adventofcode.com/2023/day/16" target="_blank">puzzle</a> | <a href="day-16/src/lib.rs">solution</a></span>
+<span title="Day 13, two stars" >    <span>.''....'</span> <span>'..</span><span>'.<span style=""></span></span><span>~~~~</span><span>/\</span><b>*</b><span>/\</span> <span>~</span>  <span>/\</span>   <span>/\</span> <span>.'</span>          <span>13</span> <b>*</b><b>*</b> | <a href="https://adventofcode.com/2023/day/13" target="_blank">puzzle</a> | <a href="day-13/src/lib.rs">solution</a></span>
+<span title="Day 17, two stars" >    <span>'.ZZ</span>    <span>~</span> <b>*</b> <span>~~~~</span><span>.</span>   <span>/\</span>  <span>/\</span>   <span>/\</span> <span>..'</span>            <span>17</span> <b>*</b><b>*</b> | <a href="https://adventofcode.com/2023/day/17" target="_blank">puzzle</a> | <a href="day-17/src/lib.rs">solution</a></span>
+<span title="Day 12, two stars" ><span>.''''</span> <span>ZZ</span><b>*</b> <span>.'''.[]</span><span>~~~</span><span>'</span><span>'''.........'''</span>               <span>12</span> <b>*</b><b>*</b> | <a href="https://adventofcode.com/2023/day/12" target="_blank">puzzle</a> | <a href="day-12/src/lib.rs">solution</a></span>
+<span aria-hidden="true"><span>'....</span>     <span>'...'</span>  <i>*</i>  <span>....'</span>                          <span>18</span>    | <i>Coming soon ...</i></span>
 <span title="Day 11, two stars" >    <span>.'</span><b>*</b>            <span>'.</span>                              <span>11</span> <b>*</b><b>*</b> | <a href="https://adventofcode.com/2023/day/11" target="_blank">puzzle</a> | <a href="day-11/src/lib.rs">solution</a></span>
 <span title="Day 10, two stars" >    <span>'..''''.</span><b>*</b><span>.''''..'</span><span>'</span> <span>''...</span>                       <span>10</span> <b>*</b><b>*</b> | <a href="https://adventofcode.com/2023/day/10" target="_blank">puzzle</a> | <a href="day-10/src/lib.rs">solution</a></span>
 <span aria-hidden="true">          <span>.</span><span>'''</span><span>~</span> <span>~</span> <span>~</span> <span>~</span>   <span>###</span> <span>''.</span>                  </span>

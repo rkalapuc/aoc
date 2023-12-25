@@ -20,7 +20,7 @@ default:
 shebang:
     #!{{shebang}}
     $psv = $PSVersionTable.PSVersion | % {"$_" -split "\." }
-    $$psVersion = $psv[0] + "." + $psv[1]
+    $psVersion = $psv[0] + "." + $psv[1]
     if ($psv[2].Length -lt 4) {
         $psVersion += "." + $psv[2] + " Core"
     } else {

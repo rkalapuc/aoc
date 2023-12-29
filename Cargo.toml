@@ -1,7 +1,7 @@
 [workspace]
 resolver = "2"
 
-members = ["day-*", "common"]
+members = ["2022/day-*", "2023/day-*", "common"]
 
 [workspace.dependencies]
 clap = { version = "4.4.10", features = ["derive"] }

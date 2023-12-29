@@ -20,21 +20,19 @@ pub fn solve_part2(input: &str) -> String {
 mod tests {
     use super::*;
 
-    const INPUT1: &str = "";
-
-    const INPUT2: &str = "";
+    const INPUT: &str = "";
 
     #[test]
     fn test_part1() {
         todo!("haven't built test yet");
-        let result = solve_part1(INPUT1);
+        let result = solve_part1(INPUT);
         assert_eq!(result, "");
     }
 
     #[test]
     fn test_part2() {
         todo!("haven't built test yet");
-        let result = solve_part2(INPUT2);
+        let result = solve_part2(INPUT);
         assert_eq!(result, "");
     }
 }

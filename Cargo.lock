@@ -66,6 +66,313 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "59d2a3357dde987206219e78ecfbbb6e8dad06cbb65292758d3270e6254f7355"
 
 [[package]]
+name = "aoc2022-day-01"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "common",
+ "itertools",
+ "sorted-vec",
+]
+
+[[package]]
+name = "aoc2022-day-02"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "common",
+ "itertools",
+ "lazy_static",
+]
+
+[[package]]
+name = "aoc2022-day-03"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "common",
+ "itertools",
+]
+
+[[package]]
+name = "aoc2022-day-04"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "common",
+ "itertools",
+]
+
+[[package]]
+name = "aoc2022-day-05"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "common",
+ "itertools",
+]
+
+[[package]]
+name = "aoc2022-day-06"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "common",
+ "itertools",
+]
+
+[[package]]
+name = "aoc2023-day-01"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "itertools",
+ "regex",
+]
+
+[[package]]
+name = "aoc2023-day-02"
+version = "0.1.0"
+dependencies = [
+ "clap",
+]
+
+[[package]]
+name = "aoc2023-day-03"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "itertools",
+]
+
+[[package]]
+name = "aoc2023-day-04"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "itertools",
+]
+
+[[package]]
+name = "aoc2023-day-05"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "itertools",
+]
+
+[[package]]
+name = "aoc2023-day-06"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "itertools",
+]
+
+[[package]]
+name = "aoc2023-day-07"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "itertools",
+ "lazy_static",
+]
+
+[[package]]
+name = "aoc2023-day-08"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "common",
+ "itertools",
+]
+
+[[package]]
+name = "aoc2023-day-09"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "common",
+ "itertools",
+]
+
+[[package]]
+name = "aoc2023-day-10"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "common",
+ "itertools",
+ "ndarray",
+]
+
+[[package]]
+name = "aoc2023-day-11"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "common",
+ "itertools",
+ "ndarray",
+]
+
+[[package]]
+name = "aoc2023-day-12"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "common",
+ "itertools",
+]
+
+[[package]]
+name = "aoc2023-day-13"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "clap",
+ "common",
+ "itertools",
+ "ndarray",
+]
+
+[[package]]
+name = "aoc2023-day-14"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "clap",
+ "common",
+ "itertools",
+ "ndarray",
+]
+
+[[package]]
+name = "aoc2023-day-15"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "common",
+ "itertools",
+ "linked-hash-map",
+]
+
+[[package]]
+name = "aoc2023-day-16"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "clap",
+ "common",
+ "itertools",
+ "ndarray",
+ "queues",
+]
+
+[[package]]
+name = "aoc2023-day-17"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "clap",
+ "common",
+ "itertools",
+ "ndarray",
+ "petgraph",
+]
+
+[[package]]
+name = "aoc2023-day-18"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "common",
+ "itertools",
+ "polygonical",
+]
+
+[[package]]
+name = "aoc2023-day-19"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "clap",
+ "common",
+ "itertools",
+ "queues",
+]
+
+[[package]]
+name = "aoc2023-day-20"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "clap",
+ "common",
+ "itertools",
+ "queues",
+]
+
+[[package]]
+name = "aoc2023-day-21"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "clap",
+ "common",
+ "itertools",
+ "ndarray",
+]
+
+[[package]]
+name = "aoc2023-day-22"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "clap",
+ "common",
+ "itertools",
+ "ndarray",
+ "petgraph",
+]
+
+[[package]]
+name = "aoc2023-day-23"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "clap",
+ "common",
+ "itertools",
+ "linked_hash_set",
+ "ndarray",
+ "petgraph",
+]
+
+[[package]]
+name = "aoc2023-day-24"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "clap",
+ "common",
+ "generator",
+ "itertools",
+]
+
+[[package]]
+name = "aoc2023-day-25"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "clap",
+ "common",
+ "itertools",
+ "ndarray",
+ "petgraph",
+]
+
+[[package]]
 name = "autocfg"
 version = "1.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -129,253 +436,6 @@ checksum = "acbf1af155f9b9ef647e42cdc158db4b64a1b61f743629225fde6f3e0be2a7c7"
 [[package]]
 name = "common"
 version = "0.1.0"
-
-[[package]]
-name = "day-01"
-version = "0.1.0"
-dependencies = [
- "itertools",
- "regex",
-]
-
-[[package]]
-name = "day-02"
-version = "0.1.0"
-
-[[package]]
-name = "day-03"
-version = "0.1.0"
-dependencies = [
- "clap",
- "itertools",
-]
-
-[[package]]
-name = "day-04"
-version = "0.1.0"
-dependencies = [
- "clap",
- "itertools",
-]
-
-[[package]]
-name = "day-05"
-version = "0.1.0"
-dependencies = [
- "clap",
- "itertools",
-]
-
-[[package]]
-name = "day-06"
-version = "0.1.0"
-dependencies = [
- "clap",
- "itertools",
-]
-
-[[package]]
-name = "day-07"
-version = "0.1.0"
-dependencies = [
- "clap",
- "itertools",
- "lazy_static",
-]
-
-[[package]]
-name = "day-08"
-version = "0.1.0"
-dependencies = [
- "clap",
- "common",
- "itertools",
-]
-
-[[package]]
-name = "day-09"
-version = "0.1.0"
-dependencies = [
- "clap",
- "common",
- "itertools",
-]
-
-[[package]]
-name = "day-10"
-version = "0.1.0"
-dependencies = [
- "clap",
- "common",
- "itertools",
- "ndarray",
-]
-
-[[package]]
-name = "day-11"
-version = "0.1.0"
-dependencies = [
- "clap",
- "common",
- "itertools",
- "ndarray",
-]
-
-[[package]]
-name = "day-12"
-version = "0.1.0"
-dependencies = [
- "clap",
- "common",
- "itertools",
-]
-
-[[package]]
-name = "day-13"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "clap",
- "common",
- "itertools",
- "ndarray",
-]
-
-[[package]]
-name = "day-14"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "clap",
- "common",
- "itertools",
- "ndarray",
-]
-
-[[package]]
-name = "day-15"
-version = "0.1.0"
-dependencies = [
- "clap",
- "common",
- "itertools",
- "linked-hash-map",
-]
-
-[[package]]
-name = "day-16"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "clap",
- "common",
- "itertools",
- "ndarray",
- "queues",
-]
-
-[[package]]
-name = "day-17"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "clap",
- "common",
- "itertools",
- "ndarray",
- "petgraph",
-]
-
-[[package]]
-name = "day-18"
-version = "0.1.0"
-dependencies = [
- "clap",
- "common",
- "itertools",
- "polygonical",
-]
-
-[[package]]
-name = "day-19"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "clap",
- "common",
- "itertools",
- "queues",
-]
-
-[[package]]
-name = "day-20"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "clap",
- "common",
- "itertools",
- "queues",
-]
-
-[[package]]
-name = "day-21"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "clap",
- "common",
- "itertools",
- "ndarray",
-]
-
-[[package]]
-name = "day-22"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "clap",
- "common",
- "itertools",
- "ndarray",
- "petgraph",
-]
-
-[[package]]
-name = "day-23"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "clap",
- "common",
- "itertools",
- "linked_hash_set",
- "ndarray",
- "petgraph",
-]
-
-[[package]]
-name = "day-24"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "clap",
- "common",
- "generator",
- "itertools",
-]
-
-[[package]]
-name = "day-25"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "clap",
- "common",
- "itertools",
- "ndarray",
- "petgraph",
-]
 
 [[package]]
 name = "either"
@@ -621,6 +681,12 @@ name = "rustversion"
 version = "1.0.14"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7ffc183a10b4478d04cbbbfc96d0873219d962dd5accaff2ffbd4ceb7df837f4"
+
+[[package]]
+name = "sorted-vec"
+version = "0.8.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c6734caf0b6f51addd5eeacca12fb39b2c6c14e8d4f3ac42f3a78955c0467458"
 
 [[package]]
 name = "strsim"

@@ -28,8 +28,9 @@ shebang:
     }
     echo "PowerShell $psVersion"
 
-create day:
-    cargo generate --path ./daily-template --name {{day}}
+create year day:
+    cargo generate --path ./daily-template --name aoc{{year}}-day-{{day}}
+    move aoc{{year}}-day-{{day}} {{year}}/day-{{day}}
 
-run day part:
-    cargo run --package {{day}} --bin {{part}} -- --data-dir {{day}}/
+run year day part:
+    cargo run --package aoc{{year}}-day-{{day}} --bin part0{{part}} -- --data-dir {{year}}/day-{{day}}/

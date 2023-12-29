@@ -7,8 +7,11 @@ cargo install cargo-generate
 brew install just
 ```
 
+Create `aoc-cookies.txt` containing AoC `session` cookie. It's needed for some useful commands (e.g. to load input for puzzle)
+
 ## Commands
-Create package for a new day:
+
+#### Create package for a new day
 ```shell
 just create <year> <day>
 ```
@@ -18,7 +21,17 @@ For example:
 just create 2023 01
 ```
 
-Execute binary for a given year, day and task:
+#### Get input for a given year and day
+```shell
+just get-input <year> <day>
+```
+
+For example:
+```shell
+just get-input 2023 01
+```
+
+####  Execute binary for a given year, day and task
 ```shell
 just run <year> <day> <part>
 ```

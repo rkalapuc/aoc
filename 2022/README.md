@@ -1,7 +1,8 @@
 # Advent of Code 2022
 
 ## Commands
-Execute binary for a given day and task:
+
+#### Execute binary for a given day and task
 ```shell
 just run <day> <part>
 ```

@@ -113,15 +113,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "aoc2022-day-06"
-version = "0.1.0"
-dependencies = [
- "clap",
- "common",
- "itertools",
-]
-
-[[package]]
 name = "aoc2023-day-01"
 version = "0.1.0"
 dependencies = [
